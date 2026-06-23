@@ -1,0 +1,83 @@
+1. Load + inspect
+
+Goal:
+
+load CSV
+print shape
+print column names
+show first 5 rows
+
+
+2. Column exploration
+
+Goal:
+
+select 2–3 columns
+print summary of each
+check data types
+
+
+3. Missing values audit
+
+Goal:
+
+count missing values per column
+identify top 3 columns with most missing data
+
+
+4. Basic statistics
+
+Goal:
+
+compute mean, median, std for numeric column(s)
+compare at least 2 columns
+
+
+5. Filtering rows
+
+Goal:
+
+filter dataset using at least 2 conditions
+(e.g. Age > 30 AND survived == 1)
+6. Groupby aggregation
+
+Goal:
+
+group by categorical column
+compute mean of numeric column per group
+
+
+7. Sorting + ranking
+
+Goal:
+
+sort dataset by numeric column
+extract top 10 rows
+extract bottom 10 rows
+
+
+8. Feature creation
+
+Goal:
+
+create new column from existing ones
+(e.g. age categories, ratios, flags)
+
+
+9. Simple visualization
+
+Goal:
+
+create at least 2 plots:
+histogram
+bar chart or scatter plot
+
+
+10. Mini analysis conclusion
+
+Goal:
+
+write 3–5 lines of findings:
+what stands out in data
+one correlation or pattern
+one potential insight
