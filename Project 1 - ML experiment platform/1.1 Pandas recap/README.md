@@ -1,1 +1,1 @@
-This is a folder for some small recap assignments. At the time of writing I havent used Pandas in a while. Used AI to generate some basic assignments and proceeded to write code manually.
+This is a folder for some small recap assignments. At the time of writing I havent used Pandas in a while, so I used AI to generate some basic assignments and proceeded to write code manually.
