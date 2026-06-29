@@ -68,22 +68,11 @@ extract top 10 rows
 extract bottom 10 rows
 
 
-
-
-9. Simple visualization
+9. Visualization data exploration
 
 Goal:
 
-create at least 2 plots:
-histogram
-bar chart or scatter plot
-
-
-10. Mini analysis conclusion
-
-Goal:
-
-write 3–5 lines of findings:
-what stands out in data
-one correlation or pattern
-one potential insight
+create plots to explore the data and correlations:
+histograms of each column
+correlation matrix heatmap
+scatter plot matrix

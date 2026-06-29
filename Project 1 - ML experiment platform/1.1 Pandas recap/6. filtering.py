@@ -16,5 +16,9 @@ age=age_years-had_birthday
 # Note: No information is present on date of death, thus age is not a reiable.
 df.insert(6, 'age', age.astype("Int64"))
 
-print(df.head(2))
- 
+
+result = df[(df['age']>100) & (df['nationality']=="British")] 
+print(result)
+
+
+# Groupby

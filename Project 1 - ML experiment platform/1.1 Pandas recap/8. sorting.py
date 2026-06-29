@@ -16,5 +16,8 @@ age=age_years-had_birthday
 # Note: No information is present on date of death, thus age is not a reiable.
 df.insert(6, 'age', age.astype("Int64"))
 
-print(df.head(2))
- 
+df=df.sort_values(by=["age"], ascending = False)
+
+print(df.head(10))
+print(df.tail(10))
+
