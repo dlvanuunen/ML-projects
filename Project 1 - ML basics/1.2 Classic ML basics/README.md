@@ -5,7 +5,4 @@ The goal is to explore, understand, apply and evaluate basic supervised and unsu
 
 
 1. California Housing, Linear regression (Supervised)
-2. Classification, ?,  (Supervised)
-
-3. (Unsupervised)
-4. (Unsupervised)
+2. Classification, (Supervised)
