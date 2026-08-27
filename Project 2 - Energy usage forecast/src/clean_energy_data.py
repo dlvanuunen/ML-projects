@@ -1,3 +1,5 @@
+# https://www.entsoe.eu/data/power-stats/
+
 import pandas as pd
 from pathlib import Path
 import plotly.graph_objects as go
@@ -10,7 +12,6 @@ print(data_file)
 
 df = pd.read_csv(data_file, parse_dates=['DateUTC'])
 
-
 #Filter for Netherlands values only
 df_NL= df[df['CountryCode']=='NL']
 
@@ -19,6 +20,8 @@ df_NL = df_NL.sort_values("DateUTC")
 df_NL = df_NL.set_index('DateUTC')
 
 
+output_file = ("./Project 2 - Energy usage forecast/data/cleaned/energy.csv")
+df_NL.to_csv(output_file)
 
 
 

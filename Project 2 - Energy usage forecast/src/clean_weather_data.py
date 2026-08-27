@@ -36,6 +36,11 @@ print(df.tail(5))
 print(df.describe())
 
 
+output_file = ("./Project 2 - Energy usage forecast/data/cleaned/weather.csv")
+df.to_csv(output_file)
+
+
+
 
 
 
