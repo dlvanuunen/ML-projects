@@ -24,9 +24,6 @@ output_file = ("./Project 2 - Energy usage forecast/data/cleaned/energy.csv")
 df_NL.to_csv(output_file)
 
 
-
-
-
 #Check / explore dataset
 print("head:", df_NL.head(5))
 print("tail:", df.tail(5))
