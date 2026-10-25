@@ -1,6 +1,7 @@
 # Data & ML Projects
 
-A portfolio of data and AI projects (work in progress). The goal is to practice and learn by building, focusing on understanding the methods rather than polished products.
+A portfolio of data and AI basics. The goal is to practice and learn by building, focusing on understanding the methods rather than polished products.
+* *Note: Since cloud computing has become increasingly important, future ML work may be included it the Cloud-projects repo. This repository may therefore not be an exhaustive collection of my ML experience.* *
 
 Skills learned/revisited:
 - Pandas
